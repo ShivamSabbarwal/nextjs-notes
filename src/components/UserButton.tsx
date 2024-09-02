@@ -41,9 +41,9 @@ function UserButton({ user, className }: Props) {
       </DropdownMenuTrigger>
 
       <DropdownMenuContent className="ml-4 mt-5 sm:mt-4">
-        <DropdownMenuLabel>My Account</DropdownMenuLabel>
+        {/* <DropdownMenuLabel>My Account</DropdownMenuLabel>
 
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
 
         <DropdownMenuItem onClick={handleLogout} className="rounded-md p-2 ">
           <LogOut className="mr-2 size-4" />
